@@ -1,0 +1,17 @@
+<head>
+  <title>Situation</title>
+</head>
+
+<!-- the layout is optional -->
+<template name='layout'>
+  <div class='container-fluid full-height'>
+    <div class='row full-height'>
+      <div class='col-xs-6 full-height'>
+        {{> map}}
+      </div>
+      <div class='col-xs-6'>
+        {{> yield}}
+      </div>
+    </div>
+  </div>
+</template>
